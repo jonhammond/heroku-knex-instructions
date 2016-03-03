@@ -10,4 +10,5 @@
 ## Things to double check if you are getting errors with Heroku
 
 * Check your logs. Check your logs. Check your logs. Do this in terminal via `heroku logs`.
+* If your app is working, but your page is not rendering anything from your database, make sure that you have seeded your database in heroku. You can do this in the terminal via `heroku run knex seed:run`.
 * In your package.json do you have a line that says `"scripts": {"start": "NODE_ENV=development node ./bin/www"}`? If so, replace 'development' with 'production'. Or, remove the entire `NODE_ENV=development` part.
