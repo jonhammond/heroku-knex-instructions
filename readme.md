@@ -1,6 +1,6 @@
 ## Directions to Get An App Built with KNEX onto Heroku
 
-* Git add, commit, and push to github so your app all backed up.
+* Git add, commit, and push to github so your app is backed up.
 * Create site in heroku (`Heroku create`)
 * Next, git push to heroku. (`git push heroku master`)
 * Then do `heroku addons:create heroku-postgresql`
